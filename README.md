@@ -61,6 +61,12 @@ java , mysql
   * Order Event
   * Order Form Event
   * Selection Page Event
-* **Database connection **  :
+* **Database connection**  :
   * CarDataProvider
   * DBConnector
+  
+### Entity relationship Diagram :
+![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/Database/Entity-relationship-diagram.png "ER Diagram")
+
+### Relational Schema :
+![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/Database/Relational-Schema.jpg "Relational Schema")
