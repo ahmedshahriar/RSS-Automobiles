@@ -37,7 +37,7 @@ java , mysql
 
 ## Built With
 
-* [Java 1.8,swing,awt](https://www.java.com/en/) - Core language
+* [Java 1.8,swing,awt](https://www.java.com/en/) - Core 
 * [iTextpdf](https://itextpdf.com) - Billing Form Pdf generation
 * [mysql](https://rometools.github.io/rome/) - Database management
 
@@ -65,6 +65,34 @@ java , mysql
   * CarDataProvider
   * DBConnector
   
+###Database connection code snippet
+```java
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+
+public class DBConnector {
+    private static Connection c;
+    public static Connection getDataBaseConnection(String url){
+        if(c==null) {
+            try {
+                String username = "root";
+                String pass = "";
+                Class.forName("com.mysql.jdbc.Driver");
+                c = DriverManager.getConnection(url, username, pass);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            return c;
+        }
+        else{
+            return c;
+        }
+    }
+
+}
+```
+
 ### Entity relationship Diagram :
 ![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/Database/Entity-relationship-diagram.png "ER Diagram")
 
