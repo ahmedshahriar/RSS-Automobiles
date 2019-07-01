@@ -82,6 +82,7 @@ java , mysql
 ![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/GUI%20Screenshots/Revenue.png "Revenue Page")
 
 #### Generated Bill as pdf
-[Click here to download the sample bill as pdf](https://www.google.com "Bill")
+[Click here to download the sample bill as pdf](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/javaFinalProject/OrderForm0.pdf "Bill")
+
 ![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/GUI%20Screenshots/pdf.png "Generated Bill as Pdf")
 
