@@ -80,5 +80,8 @@ java , mysql
 ![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/GUI%20Screenshots/order.png "Order Records Page")
 ![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/GUI%20Screenshots/orderForm.png "Order Form Page")
 ![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/GUI%20Screenshots/Revenue.png "Revenue Page")
+
+#### Generated Bill as pdf
+[Click here to download the sample bill as pdf](https://www.google.com "Bill")
 ![alt text](https://github.com/ahmedshahriar/RSS-Automobiles/blob/master/GUI%20Screenshots/pdf.png "Generated Bill as Pdf")
 
